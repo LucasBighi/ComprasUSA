@@ -12,6 +12,12 @@
 		96DEA5CB21BA12A5006DE62A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DEA5C921BA12A5006DE62A /* Main.storyboard */; };
 		96DEA5CD21BA12A8006DE62A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96DEA5CC21BA12A8006DE62A /* Assets.xcassets */; };
 		96DEA5D021BA12A8006DE62A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DEA5CE21BA12A8006DE62A /* LaunchScreen.storyboard */; };
+		96DEA5D821BA28FB006DE62A /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEA5D721BA28FB006DE62A /* ShoppingViewController.swift */; };
+		96DEA5DA21BA290D006DE62A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEA5D921BA290D006DE62A /* SettingsViewController.swift */; };
+		96DEA5DC21BA2915006DE62A /* TaxesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEA5DB21BA2915006DE62A /* TaxesViewController.swift */; };
+		96DEA5DE21BA2D3E006DE62A /* TaxesCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEA5DD21BA2D3E006DE62A /* TaxesCalculator.swift */; };
+		96DEA5E021BA2F41006DE62A /* UIViewController+TaxesCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEA5DF21BA2F41006DE62A /* UIViewController+TaxesCalculator.swift */; };
+		96DEA5E221BA3D7E006DE62A /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEA5E121BA3D7E006DE62A /* UITextFieldExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		96DEA5CC21BA12A8006DE62A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96DEA5CF21BA12A8006DE62A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96DEA5D121BA12A8006DE62A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96DEA5D721BA28FB006DE62A /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		96DEA5D921BA290D006DE62A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		96DEA5DB21BA2915006DE62A /* TaxesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxesViewController.swift; sourceTree = "<group>"; };
+		96DEA5DD21BA2D3E006DE62A /* TaxesCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxesCalculator.swift; sourceTree = "<group>"; };
+		96DEA5DF21BA2F41006DE62A /* UIViewController+TaxesCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+TaxesCalculator.swift"; sourceTree = "<group>"; };
+		96DEA5E121BA3D7E006DE62A /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,12 @@
 				96DEA5C521BA12A4006DE62A /* AppDelegate.swift */,
 				96DEA5C721BA12A4006DE62A /* ViewController.swift */,
 				96DEA5C921BA12A5006DE62A /* Main.storyboard */,
+				96DEA5D721BA28FB006DE62A /* ShoppingViewController.swift */,
+				96DEA5E121BA3D7E006DE62A /* UITextFieldExtension.swift */,
+				96DEA5DF21BA2F41006DE62A /* UIViewController+TaxesCalculator.swift */,
+				96DEA5DD21BA2D3E006DE62A /* TaxesCalculator.swift */,
+				96DEA5D921BA290D006DE62A /* SettingsViewController.swift */,
+				96DEA5DB21BA2915006DE62A /* TaxesViewController.swift */,
 				96DEA5CC21BA12A8006DE62A /* Assets.xcassets */,
 				96DEA5CE21BA12A8006DE62A /* LaunchScreen.storyboard */,
 				96DEA5D121BA12A8006DE62A /* Info.plist */,
@@ -136,7 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				96DEA5C821BA12A4006DE62A /* ViewController.swift in Sources */,
+				96DEA5E221BA3D7E006DE62A /* UITextFieldExtension.swift in Sources */,
+				96DEA5D821BA28FB006DE62A /* ShoppingViewController.swift in Sources */,
+				96DEA5DC21BA2915006DE62A /* TaxesViewController.swift in Sources */,
+				96DEA5DE21BA2D3E006DE62A /* TaxesCalculator.swift in Sources */,
+				96DEA5E021BA2F41006DE62A /* UIViewController+TaxesCalculator.swift in Sources */,
 				96DEA5C621BA12A4006DE62A /* AppDelegate.swift in Sources */,
+				96DEA5DA21BA290D006DE62A /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
